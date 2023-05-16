@@ -1,0 +1,95 @@
+body
+{
+    background-color: #61366B;
+    color: white;
+}
+
+h1, h2 {
+    color: #E5BEEE;
+    padding: 0%;
+    margin: 0%;
+}
+.logo{
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.logo img{
+    border-radius: 15px;
+}
+#menu-atas{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    background-color: #A75CB8;
+}
+
+.blok-utama{
+    display: block;
+    margin: 20px;
+}
+.blok-bagian{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    background-color: #E5BEEE;
+    color: #201910;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+.blok-bagian img{
+    margin: 15px;
+}
+
+.blok_text{
+    align-self: flex-start;
+    margin: 12px;
+}
+
+.menu{
+    display: block;
+    background-color: #675668;
+}
+
+.menu li a {
+    padding: 8px;
+    background-color: #675668;
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.menu ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li a:hover {
+    background-color: #675668;
+}
+#active {
+    background-color: #04AA6D;
+}
