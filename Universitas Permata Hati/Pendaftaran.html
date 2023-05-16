@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Universitas Permata Hati</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+            font-family: 'Poppins',sans-serif;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Gambar/LOGO.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Profile.html">PROFILE</a></li>
+                    <li><a href="Organisasi.html">ORGANINASI</a></li>
+                    <li><a href="Kontak.html">KONTAK</a></li>
+                    <li><a href="Pendaftaran.html">DAFTAR</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="title">From Register</div>
+            <div class="content">
+                <form action="#">
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Nama Lengkap</span>
+                            <input type="text" placeholder="Masukkan nama lengkap" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">NIK</span>
+                            <input type="number" placeholder="Masukkan No NIK" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">NISN</span>
+                            <input type="number" placeholder="Masukkan NISN" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Asal Sekolah</span>
+                            <input type="text" placeholder="Masukkan Asal Sekolah" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Jurusan Dipilih</span>
+                            <input type="text" placeholder="Masukkan Nama Jurusan" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">No Handphone</span>
+                            <input type="number" placeholder="Masukkan Nomor Handphone" required>
+                        </div>
+                    </div>
+                    <div class="gender-details">
+                        <input type="radio" name="gender" id="dot-1">
+                        <input type="radio" name="gender" id="dot-2">
+                        <input type="radio" name="gender" id="dot-3">
+                        <span class="gender-title">Jenis Kelamin</span>
+                        <div class="category">
+                            <label for="dot-1">
+                                <span class="dot one"></span>
+                                <span class="gender">Pria</span>
+                            </label>
+                            <label for="dot-2">
+                                <span class="dot two"></span>
+                                <span class="gender">Wanita</span>
+                            </label>
+                            <label for="dot-3">
+                                <span class="dot three"></span>
+                                <span class="gender">Lainnya</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Daftar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
