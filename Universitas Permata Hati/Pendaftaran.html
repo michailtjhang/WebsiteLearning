@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width , initial-scale=1.0">
-    <title>Universitas Permata Hati</title>
+    <title>Pendaftaran - Universitas Permata Hati</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Gambar/institution.png">
     <style>
         *{
             margin: 0;
@@ -40,7 +41,7 @@
             </div>
         </nav>
         <div class="container">
-            <div class="title">From Register</div>
+            <div class="title">From Pendaftaran</div>
             <div class="content">
                 <form action="#">
                     <div class="user-details">
@@ -66,7 +67,7 @@
                         </div>
                         <div class="input-box">
                             <span class="details">No Handphone</span>
-                            <input type="number" placeholder="Masukkan Nomor Handphone" required>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Masukkan Nomor Handphone" required>
                         </div>
                     </div>
                     <div class="gender-details">

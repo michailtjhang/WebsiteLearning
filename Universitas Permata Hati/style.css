@@ -133,6 +133,7 @@ nav img{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
+    gap: 15px;
 }
 
 .visi-col{
@@ -160,6 +161,76 @@ nav img{
     margin-top: 5%;
     display: flex;
     justify-content: center;
+    gap: 50px;
+}
+.profile-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.profile-col p{
+    padding-bottom: 20px;
+}
+
+.profile-col h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.profile-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.profile-col ol {
+    text-align: center;
+}
+
+ol.myol{
+    display: inline-block;
+    text-align: left;
+}
+
+/* Organisasi */
+.organ{
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+
+.org-center{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.org-col{
+    flex-basis: 21%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.org-col h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.org-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.org-col img{
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    height: 300px;
+    width: 200px;
 }
 
 /* Contact */
@@ -185,7 +256,7 @@ nav img{
 }
 
 .con-col{
-    flex-basis: 31%;
+    flex-basis: 26%;
     background: #322323;
     border-radius: 10px;
     margin-bottom: 5%;
@@ -323,34 +394,24 @@ form .button input{
     letter-spacing: 1px;
     cursor: pointer;
     transition: all 0.3s ease;
-     background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
 form .button input:hover{
     /* transform: scale(0.99); */
     background: linear-gradient(-135deg, #71b7e6, #9b59b6);
 }
-@media(max-width: 584px){
-    .container{
-      max-width: 100%;
-    }
-    form .user-details .input-box{
-      margin-bottom: 15px;
-      width: 100%;
-    }
-    form .category{
-      width: 100%;
-    }
-    .content form .user-details{
-      max-height: 300px;
-      overflow-y: scroll;
-    }
-    .user-details::-webkit-scrollbar{
-      width: 5px;
-    }
-    }
 
-@media(max-width: 459px){
-    .container .content .category{
-      flex-direction: column;
-    }
+/* copyright */
+.wrapper{
+    margin: auto;
+    position: relative;
+}
+
+#copyright{
+    text-align: center;
+    text-decoration: none;
+    font-weight: normal;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
 }
