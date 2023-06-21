@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30.0,7)),url(Image/Music-bg.webp);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    position: relative;
+    min-height: 100vh;
+}
+
+/* Home style */
+.container {
+    color: #fff;
+    background-color: rgb(39, 73, 109, 0.8);
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.songs {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+  
+.song {
+    display: inline-flex;
+    margin: 10px;
+    background-color: aliceblue;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 20px;
+    width: 60%;
+}
+
+.song h1, h2, p {
+    color: black;
+}
+  
+.songs a img {
+    flex: 1 1 120px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.bio {
+    flex: 1 1 200px;
+    margin: 12px;
+    padding: 0px;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: left;
+}
+
+/* Song Page Style */
+.container a {
+    text-decoration: none;
+    color: #fff;
+}
+
+img {
+    width: 100px;
+}
+  
+audio {
+    padding: 20px;
+    width: 90%;
+}
